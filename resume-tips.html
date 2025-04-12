@@ -5,14 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume Tips - Career Compass</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/resume-tips.css">
     <script type="module" src="js/config.js"></script>
     <script type="module" src="js/main.js"></script>
-    <!DOCTYPE html>
-    <script type="module" src="js/config.js"></script>
-    <!DOCTYPE html>
-    <script type="module" src="js/quiz.js"></script>
-    <!DOCTYPE html>
-    <script type="module" src="js/suggestions.js"></script>
 </head>
 <body>
     <header>
@@ -21,12 +16,15 @@
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="quiz.html">Skill Quiz</a></li>
-                <li><a href="suggestions.html">Suggestions</a></li>
+                <li><a href="suggestions.html" >Suggestions</a></li>
                 <li><a href="resume-tips.html" class="active">Resume Tips</a></li>
                 <li><a href="advisor.html">Advisor</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
             </ul>
+            <div class="auth-links">
+                <a href="login.html" class="login-btn">Log In</a>
+                <a href="signup.html" class="signup-btn">Sign Up</a>
+            </div>
             <div class="hamburger">
                 <span></span>
                 <span></span>
@@ -38,7 +36,7 @@
     <main class="resume-tips-container">
         <section class="resume-tips-section">
             <h1>Professional Resume Writing Tips</h1>
-            <p class="section-description">Create a compelling resume that stands out to employers with these expert tips and best practices.</p>
+            <p class="section-description">Master the art of resume writing with our comprehensive guide covering everything from basic formatting to advanced optimization techniques.</p>
 
             <div class="tips-grid">
                 <!-- Summary Section -->
@@ -118,6 +116,82 @@
                 </div>
             </div>
 
+            <!-- ATS Optimization Section -->
+            <div class="tip-card">
+                <h2>ATS Optimization</h2>
+                <div class="tip-content">
+                    <h3>Do's:</h3>
+                    <ul>
+                        <li>Use standard section headings (Experience, Education, Skills)</li>
+                        <li>Include exact keywords from the job posting</li>
+                        <li>Use simple formatting and standard fonts</li>
+                    </ul>
+                    <h3>Don'ts:</h3>
+                    <ul>
+                        <li>Use tables or complex formatting</li>
+                        <li>Include images or graphics</li>
+                        <li>Submit PDFs unless specifically requested</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Cover Letter Section -->
+            <div class="tip-card">
+                <h2>Cover Letter Writing</h2>
+                <div class="tip-content">
+                    <h3>Do's:</h3>
+                    <ul>
+                        <li>Address the hiring manager by name</li>
+                        <li>Highlight specific achievements relevant to the role</li>
+                        <li>Show enthusiasm and company knowledge</li>
+                    </ul>
+                    <h3>Don'ts:</h3>
+                    <ul>
+                        <li>Use generic templates</li>
+                        <li>Repeat your resume content</li>
+                        <li>Exceed one page</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Portfolio Presentation -->
+            <div class="tip-card">
+                <h2>Portfolio Tips</h2>
+                <div class="tip-content">
+                    <h3>Do's:</h3>
+                    <ul>
+                        <li>Showcase your best and most relevant work</li>
+                        <li>Include project descriptions and outcomes</li>
+                        <li>Keep it updated and professional</li>
+                    </ul>
+                    <h3>Don'ts:</h3>
+                    <ul>
+                        <li>Include outdated or irrelevant projects</li>
+                        <li>Forget to test all links and media</li>
+                        <li>Overload with too many examples</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Interview Preparation -->
+            <div class="tip-card">
+                <h2>Interview Success</h2>
+                <div class="tip-content">
+                    <h3>Do's:</h3>
+                    <ul>
+                        <li>Research the company thoroughly</li>
+                        <li>Prepare STAR method responses</li>
+                        <li>Bring extra copies of your resume</li>
+                    </ul>
+                    <h3>Don'ts:</h3>
+                    <ul>
+                        <li>Arrive unprepared or late</li>
+                        <li>Forget to prepare questions</li>
+                        <li>Neglect to follow up</li>
+                    </ul>
+                </div>
+            </div>
+
             <div class="pro-tips-section">
                 <h2>Professional Tips</h2>
                 <div class="pro-tips-content">
@@ -127,11 +201,19 @@
                     </div>
                     <div class="pro-tip">
                         <h3>Keywords</h3>
-                        <p>Include industry-specific keywords from the job description to pass Applicant Tracking Systems (ATS).</p>
+                        <p>Include industry-specific keywords from the job description to pass Applicant Tracking Systems (ATS). Use both acronyms and full terms (e.g., "AI" and "Artificial Intelligence").</p>
                     </div>
                     <div class="pro-tip">
                         <h3>Customization</h3>
-                        <p>Tailor your resume for each application by highlighting relevant experience and skills for the specific role.</p>
+                        <p>Tailor your resume for each application by highlighting relevant experience and skills for the specific role. Research the company culture and values to align your content.</p>
+                    </div>
+                    <div class="pro-tip">
+                        <h3>Digital Presence</h3>
+                        <p>Maintain a professional LinkedIn profile that complements your resume. Ensure all online profiles are consistent with your resume information.</p>
+                    </div>
+                    <div class="pro-tip">
+                        <h3>Networking</h3>
+                        <p>Leverage professional networks and industry connections. Attend career fairs and industry events to expand your opportunities.</p>
                     </div>
                 </div>
             </div>
