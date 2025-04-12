@@ -219,4 +219,23 @@
         padding: 0.6rem 1.2rem;
         font-size: 0.9rem;
     }
+
+    .career-details {
+        padding-top: 1rem;
+    }
+
+    .education-requirements,
+    .industry-trends {
+        margin-top: 1rem;
+    }
+
+    .education-requirements h4,
+    .industry-trends h4 {
+        font-size: 1rem;
+    }
+
+    .education-requirements li,
+    .industry-trends li {
+        padding: 0.3rem 0;
+    }
 }
