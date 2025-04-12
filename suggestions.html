@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Suggestions - Career Compass</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script type="module" src="js/config.js"></script>
+    <script type="module" src="js/main.js"></script>
+    <!DOCTYPE html>
+    <script type="module" src="js/config.js"></script>
+    <!DOCTYPE html>
+    <script type="module" src="js/quiz.js"></script>
+    <!DOCTYPE html>
+    <script type="module" src="js/suggestions.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Career Compass</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quiz.html">Skill Quiz</a></li>
+                <li><a href="suggestions.html" class="active">Suggestions</a></li>
+                <li><a href="resume-tips.html">Resume Tips</a></li>
+                <li><a href="advisor.html">Advisor</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="suggestions-container">
+        <section class="suggestions-section animate__animated animate__fadeIn">
+            <h1>Your Career Suggestions</h1>
+            <p class="section-description">Based on your quiz responses, here are personalized career paths that align with your skills and interests.</p>
+            
+            <div class="filters-container">
+                <button class="filter-btn active" data-filter="all">All Careers</button>
+                <button class="filter-btn" data-filter="tech">Technology</button>
+                <button class="filter-btn" data-filter="business">Business</button>
+                <button class="filter-btn" data-filter="creative">Creative</button>
+            </div>
+
+            <div class="suggestions-grid">
+                <div class="career-card tech">
+                    <div class="career-header">
+                        <h3>Software Developer</h3>
+                        <span class="match-percentage">95% Match</span>
+                    </div>
+                    <div class="career-content">
+                        <p class="career-description">Design and develop software applications using various programming languages and technologies.</p>
+                        <div class="skills-list">
+                            <h4>Key Skills</h4>
+                            <ul>
+                                <li>Programming (Java, Python, JavaScript)</li>
+                                <li>Problem Solving & Algorithms</li>
+                                <li>Software Architecture</li>
+                                <li>Version Control (Git)</li>
+                            </ul>
+                        </div>
+                        <div class="career-details">
+                            <p><strong>Salary Range:</strong> $70,000 - $150,000+</p>
+                            <p><strong>Growth Potential:</strong> High</p>
+                            <p><strong>Work Environment:</strong> Office/Remote</p>
+                            <div class="education-requirements">
+                                <h4>Education & Certifications</h4>
+                                <ul>
+                                    <li>Bachelor's in Computer Science or related field</li>
+                                    <li>AWS/Azure Certifications</li>
+                                    <li>Agile/Scrum Certifications</li>
+                                </ul>
+                            </div>
+                            <div class="industry-trends">
+                                <h4>Industry Trends</h4>
+                                <ul>
+                                    <li>Growing demand in AI/ML</li>
+                                    <li>Remote work opportunities increasing</li>
+                                    <li>Focus on cloud technologies</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="career-card business">
+                    <div class="career-header">
+                        <h3>Business Analyst</h3>
+                        <span class="match-percentage">88% Match</span>
+                    </div>
+                    <div class="career-content">
+                        <p class="career-description">Analyze business processes and recommend solutions to improve efficiency and productivity.</p>
+                        <div class="skills-list">
+                            <h4>Key Skills</h4>
+                            <ul>
+                                <li>Data Analysis & Visualization</li>
+                                <li>Business Process Modeling</li>
+                                <li>Requirements Gathering</li>
+                                <li>Stakeholder Management</li>
+                            </ul>
+                        </div>
+                        <div class="career-details">
+                            <p><strong>Salary Range:</strong> $60,000 - $120,000</p>
+                            <p><strong>Growth Potential:</strong> Medium-High</p>
+                            <p><strong>Work Environment:</strong> Hybrid</p>
+                            <div class="education-requirements">
+                                <h4>Education & Certifications</h4>
+                                <ul>
+                                    <li>Bachelor's in Business or related field</li>
+                                    <li>CBAP Certification</li>
+                                    <li>Six Sigma Certification</li>
+                                </ul>
+                            </div>
+                            <div class="industry-trends">
+                                <h4>Industry Trends</h4>
+                                <ul>
+                                    <li>Digital transformation focus</li>
+                                    <li>Data-driven decision making</li>
+                                    <li>Agile methodologies adoption</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="career-card creative">
+                    <div class="career-header">
+                        <h3>UX/UI Designer</h3>
+                        <span class="match-percentage">82% Match</span>
+                    </div>
+                    <div class="career-content">
+                        <p class="career-description">Create user-friendly and visually appealing digital experiences for websites and applications.</p>
+                        <div class="skills-list">
+                            <h4>Key Skills</h4>
+                            <ul>
+                                <li>User Interface Design</li>
+                                <li>User Research & Testing</li>
+                                <li>Prototyping Tools (Figma, Adobe XD)</li>
+                                <li>Information Architecture</li>
+                            </ul>
+                        </div>
+                        <div class="career-details">
+                            <p><strong>Salary Range:</strong> $65,000 - $130,000</p>
+                            <p><strong>Growth Potential:</strong> High</p>
+                            <p><strong>Work Environment:</strong> Studio/Remote</p>
+                            <div class="education-requirements">
+                                <h4>Education & Certifications</h4>
+                                <ul>
+                                    <li>Bachelor's in Design or related field</li>
+                                    <li>Google UX Design Certificate</li>
+                                    <li>Interaction Design Foundation Courses</li>
+                                </ul>
+                            </div>
+                            <div class="industry-trends">
+                                <h4>Industry Trends</h4>
+                                <ul>
+                                    <li>Mobile-first design emphasis</li>
+                                    <li>AR/VR interface design growth</li>
+                                    <li>Accessibility focus</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="career-card tech">
+                    <div class="career-header">
+                        <h3>Data Scientist</h3>
+                        <span class="match-percentage">85% Match</span>
+                    </div>
+                    <div class="career-content">
+                        <p class="career-description">Analyze complex data sets and build predictive models to drive business decisions and innovations.</p>
+                        <div class="skills-list">
+                            <h4>Key Skills</h4>
+                            <ul>
+                                <li>Machine Learning & AI</li>
+                                <li>Statistical Analysis</li>
+                                <li>Python/R Programming</li>
+                                <li>Big Data Technologies</li>
+                            </ul>
+                        </div>
+                        <div class="career-details">
+                            <p><strong>Salary Range:</strong> $85,000 - $160,000</p>
+                            <p><strong>Growth Potential:</strong> Very High</p>
+                            <p><strong>Work Environment:</strong> Hybrid/Remote</p>
+                            <div class="education-requirements">
+                                <h4>Education & Certifications</h4>
+                                <ul>
+                                    <li>Master's/PhD in Data Science or related field</li>
+                                    <li>TensorFlow Certification</li>
+                                    <li>AWS/Azure ML Certifications</li>
+                                </ul>
+                            </div>
+                            <div class="industry-trends">
+                                <h4>Industry Trends</h4>
+                                <ul>
+                                    <li>Deep learning applications</li>
+                                    <li>AutoML adoption</li>
+                                    <li>Edge computing integration</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="career-card tech">
+                    <div class="career-header">
+                        <h3>Cybersecurity Analyst</h3>
+                        <span class="match-percentage">80% Match</span>
+                    </div>
+                    <div class="career-content">
+                        <p class="career-description">Protect organizations from cyber threats and implement security measures to safeguard digital assets.</p>
+                        <div class="skills-list">
+                            <h4>Key Skills</h4>
+                            <ul>
+                                <li>Network Security</li>
+                                <li>Threat Detection</li>
+                                <li>Security Tools & Protocols</li>
+                                <li>Incident Response</li>
+                            </ul>
+                        </div>
+                        <div class="career-details">
+                            <p><strong>Salary Range:</strong> $75,000 - $140,000</p>
+                            <p><strong>Growth Potential:</strong> Very High</p>
+                            <p><strong>Work Environment:</strong> Hybrid</p>
+                            <div class="education-requirements">
+                                <h4>Education & Certifications</h4>
+                                <ul>
+                                    <li>Bachelor's in Cybersecurity or related field</li>
+                                    <li>CISSP Certification</li>
+                                    <li>CompTIA Security+</li>
+                                </ul>
+                            </div>
+                            <div class="industry-trends">
+                                <h4>Industry Trends</h4>
+                                <ul>
+                                    <li>Zero trust architecture</li>
+                                    <li>Cloud security focus</li>
+                                    <li>AI-powered security tools</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Career Compass. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Toggle mobile menu
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+            this.classList.toggle('active');
+        });
+
+        // Filter functionality
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Update active button
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+
+                // Filter cards
+                const filter = button.getAttribute('data-filter');
+                const cards = document.querySelectorAll('.career-card');
+                
+                cards.forEach(card => {
+                    if (filter === 'all' || card.classList.contains(filter)) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
